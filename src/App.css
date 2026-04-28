@@ -1,5 +1,5 @@
 #bio {
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 3.9), rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 1.7)), url('https://i.pinimg.com/originals/38/da/a5/38daa5ba9ffaaef40c08d78e9d276aca.gif');
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 3.9), rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 1.7)), url('https://i.pinimg.com/736x/cd/86/86/cd86860c591b898b0a9d5f2c70b530ff.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -7,7 +7,7 @@
 }
 
 #skills {
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 3.9), rgba(0, 0, 0, 1.3), rgba(0, 0, 0, 0.9)), url('https://i.pinimg.com/originals/38/da/a5/38daa5ba9ffaaef40c08d78e9d276aca.gif');
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 3.9), rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 2.9)), url('https://i.pinimg.com/originals/43/78/ec/4378ec9f3a9749a6a58ab5e1027f26ab.gif');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

@@ -2,7 +2,7 @@
 @import "tailwindcss";
 
 @theme {
-  --color-neon-red: #ff0033;
+  --color-neon-red: #ff0000 ;
   --font-sans: 'Inter', system-ui, sans-serif;
   --font-display: 'Syncopate', sans-serif;
   --font-cyber: 'Orbitron', sans-serif;
@@ -11,10 +11,10 @@
 @layer utilities {
   .text-3d {
     text-shadow: 
-      1px 1px 0px #c20026, 
-      2px 2px 0px #94001d, 
-      3px 3px 0px #630013, 
-      4px 4px 0px #36000a, 
+      1px 1px 0px #2400c2, 
+      2px 2px 0px #003994, 
+      3px 3px 0px #2e1f7e, 
+      4px 4px 0px #000236, 
       5px 5px 15px rgba(0,0,0,0.9);
   }
   
@@ -33,7 +33,7 @@ body {
 }
 
 ::selection {
-  @apply bg-neon-red text-white;
+  @apply bg-blue-500 text-white;
 }
 
 ::-webkit-scrollbar {
@@ -46,5 +46,5 @@ body {
   background: #222;
 }
 ::-webkit-scrollbar-thumb:hover {
-  @apply bg-neon-red;
+  @apply bg-blue-500;
 }

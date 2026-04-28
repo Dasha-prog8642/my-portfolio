@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600;800;900&family=Inter:wght@300;400;600&family=Syncopate:wght@400;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-neon-red: #ff0033;
+  --font-sans: 'Inter', system-ui, sans-serif;
+  --font-display: 'Syncopate', sans-serif;
+  --font-cyber: 'Orbitron', sans-serif;
+}
+
+@layer utilities {
+  .text-3d {
+    text-shadow: 
+      1px 1px 0px #c20026, 
+      2px 2px 0px #94001d, 
+      3px 3px 0px #630013, 
+      4px 4px 0px #36000a, 
+      5px 5px 15px rgba(0,0,0,0.9);
+  }
+  
+  .text-3d-white {
+    text-shadow: 
+      1px 1px 0px #ccc, 
+      2px 2px 0px #999, 
+      3px 3px 0px #666, 
+      4px 4px 0px #333, 
+      5px 5px 15px rgba(0,0,0,0.9);
+  }
+}
+
+body {
+  @apply bg-black text-white font-sans m-0 p-0 overflow-x-hidden;
+}
+
+::selection {
+  @apply bg-neon-red text-white;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #000;
+}
+::-webkit-scrollbar-thumb {
+  background: #222;
+}
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-neon-red;
+}
